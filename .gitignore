@@ -1,0 +1,30 @@
+# General Ignore Rules, Made with help from CS417 example repo gitignore
+# Source: https://github.com/cstkennedy/cs417-examples/blob/master/.gitignore
+**/documentation/
+**.o
+**.d
+**.exe
+**.zip
+**.class
+**.jar
+!**gradle-wrapper.jar
+**.pyc
+**/docs
+**leak.out*
+**.bak
+**bin
+**.vscode
+
+# Python Ignore Rules
+**/.coverage
+**/htmlcov
+
+**/.pytest_cache
+
+MANIFEST
+
+**.tox
+**.egg-info
+
+# MacOS specific
+.DS_Store
