@@ -12,6 +12,9 @@ usage:
     python3 driver.py data/input_file.txt
     data/input_file.txt is used here because I moved my input files into a subdirectory
 
+    in the absence of input files in a subdirectory usage:
+    python3 driver.py input_file.txt
+
 output similar to: 
     output files of the name {basename}-core-0.txt
     where {basename} is the name of the input file without the extension
