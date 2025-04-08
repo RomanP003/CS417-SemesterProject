@@ -1,7 +1,7 @@
 """
-This module is a function used to computer a line for any pair of adjacent points
+This module is a function used to compute a line for any pair of adjacent points
 for the CPU Temperatures Project. This code may be used if it is imported using
-``from piecewise_linear_itnerpolation import {...} ``where ``{...}`` represents
+``from piecewise_linear_interpolation import {...} ``where ``{...}`` represents
 one or more functions.
 """
 

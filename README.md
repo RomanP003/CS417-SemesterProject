@@ -19,4 +19,5 @@ output similar to:
     output files of the name {basename}-core-0.txt
     where {basename} is the name of the input file without the extension
     there will be numer of output files generated corresponding to the number of cores
-    the files will consist of entries such as: 	   time1 <= x <=   time2 ; y =    constant_term + slope x ; interpolation
+    the files will consist of multiple entries such as: 	   time1 <= x <=   time2 ; y =    constant_term + slope x ; interpolation
+    and a single entry: firstTime <= x <= lastTime ; y =    c0 + c1 x ; least-squares

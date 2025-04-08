@@ -2,6 +2,7 @@ import sys
 
 from parse_temps import parse_raw_temps
 from piecewise_linear_interpolation import piecewise_linear_interpolation
+from least_squares_approximation import least_squares_approximation
 
 def main():
 
@@ -28,9 +29,13 @@ def main():
             core_3_data.append(core_data[3])
 
         piecewise_linear_interpolation(times, core_0_data, basename, 0)
+        least_squares_approximation(times, core_0_data, basename, 0)
         piecewise_linear_interpolation(times, core_1_data, basename, 1)
+        least_squares_approximation(times,core_1_data, basename, 1)
         piecewise_linear_interpolation(times, core_2_data, basename, 2)
+        least_squares_approximation(times,core_2_data, basename, 2)
         piecewise_linear_interpolation(times, core_3_data, basename, 3)
+        least_squares_approximation(times,core_3_data, basename, 3)
 
 if __name__ == "__main__":
     main()
